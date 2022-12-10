@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-radius: 8px;
+  padding: 10px;
+  border: 1px solid transparent;
+  box-shadow: 0px 0px 25px 1px #94a3b8;
+  height: 50vh;
+  width: 100%;
+  margin: 5px;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.card-heading {
+  color: #cbd5e1;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: roboto;
+}
+.bar-container {
+  width: 100%;
+  height: 100vh;
+}
